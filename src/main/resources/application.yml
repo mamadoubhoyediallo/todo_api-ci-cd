@@ -10,11 +10,11 @@
 #      dialect: org.hiernate.dialect.PostgresSQLDialect
 #
 
-spring:
-  datasource:
-    url: jdbc:h2:mem:restodb
-    username: sa
-    password: password
-    driverClassName: org.h2.Driver
-  jpa:
-    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:restodb
+#    username: sa
+#    password: password
+#    driverClassName: org.h2.Driver
+#  jpa:
+#    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
