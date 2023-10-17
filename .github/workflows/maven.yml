@@ -41,4 +41,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Start docker-compose
-        run: docker-compose -f docker-compose.yml up -d
+      run: docker-compose -f docker-compose.yml up -d
