@@ -90,6 +90,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>todo_api_cicd</finalName>
     </build>
 
 </project>
