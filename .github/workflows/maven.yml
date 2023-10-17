@@ -36,7 +36,6 @@ jobs:
         image: bhoye06/todo_api_cicd
         tags: latest
         registry: docker.io
-        dockerfile: Dockerfile
-        compose-file: docker-compose.yml
+        dockerfile: docker-compose.yml
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
