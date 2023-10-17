@@ -1,0 +1,20 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://locahgost:5432/restodb
+#    username: postgres
+#    password: admin
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#      dialect: org.hiernate.dialect.PostgresSQLDialect
+#
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:restodb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
