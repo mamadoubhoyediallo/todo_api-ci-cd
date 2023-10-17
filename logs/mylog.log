@@ -178,3 +178,66 @@
 2023-10-11T17:17:05.570Z  INFO 56539 --- [main] s.f.r.repositories.CostumerRepoTest      : Started CostumerRepoTest in 3.229 seconds (process running for 5.1)
 2023-10-11T17:17:05.641Z  INFO 56539 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-10-11T17:17:05.642Z  INFO 56539 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-10-17T11:41:27.802Z  INFO 78077 --- [main] s.f.r.repositories.CostumerRepoTest      : Starting CostumerRepoTest using Java 17.0.5 with PID 78077 (started by mamadoubhoyediallo in /Users/mamadoubhoyediallo/Documents/dev-pro/todo)
+2023-10-17T11:41:27.805Z  INFO 78077 --- [main] s.f.r.repositories.CostumerRepoTest      : No active profile set, falling back to 1 default profile: "default"
+2023-10-17T11:41:28.462Z  INFO 78077 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-17T11:41:28.465Z  INFO 78077 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17T11:41:28.732Z  INFO 78077 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 254 ms. Found 1 JPA repository interfaces.
+2023-10-17T11:41:28.803Z  INFO 78077 --- [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-10-17T11:41:28.978Z  INFO 78077 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:20a3acb2-be5d-4085-9854-b25227758dd3;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-10-17T11:41:29.351Z  INFO 78077 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17T11:41:29.434Z  INFO 78077 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-10-17T11:41:29.437Z  INFO 78077 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-17T11:41:29.624Z  INFO 78077 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T11:41:29.635Z  INFO 78077 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-17T11:41:29.705Z  INFO 78077 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-10-17T11:41:29.954Z  INFO 78077 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T11:41:30.474Z  INFO 78077 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17T11:41:30.515Z  INFO 78077 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-10-17T11:41:30.518Z  INFO 78077 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T11:41:30.930Z  INFO 78077 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-17T11:41:31.483Z  INFO 78077 --- [main] s.f.r.repositories.CostumerRepoTest      : Started CostumerRepoTest in 4.581 seconds (process running for 8.029)
+2023-10-17T11:41:31.587Z  INFO 78077 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T11:41:31.588Z  INFO 78077 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-10-17T11:42:10.641Z  INFO 78101 --- [main] s.f.r.repositories.CostumerRepoTest      : Starting CostumerRepoTest using Java 17.0.5 with PID 78101 (started by mamadoubhoyediallo in /Users/mamadoubhoyediallo/Documents/dev-pro/todo)
+2023-10-17T11:42:10.643Z  INFO 78101 --- [main] s.f.r.repositories.CostumerRepoTest      : No active profile set, falling back to 1 default profile: "default"
+2023-10-17T11:42:11.038Z  INFO 78101 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-17T11:42:11.040Z  INFO 78101 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17T11:42:11.251Z  INFO 78101 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 201 ms. Found 1 JPA repository interfaces.
+2023-10-17T11:42:11.313Z  INFO 78101 --- [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-10-17T11:42:11.497Z  INFO 78101 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:9f73ad30-f2da-421d-bfee-fdc51f0b8774;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-10-17T11:42:11.826Z  INFO 78101 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17T11:42:11.894Z  INFO 78101 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-10-17T11:42:11.897Z  INFO 78101 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-17T11:42:12.045Z  INFO 78101 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T11:42:12.054Z  INFO 78101 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-17T11:42:12.115Z  INFO 78101 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-10-17T11:42:12.306Z  INFO 78101 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T11:42:12.774Z  INFO 78101 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17T11:42:12.813Z  INFO 78101 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-10-17T11:42:12.815Z  INFO 78101 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T11:42:13.163Z  INFO 78101 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-17T11:42:13.606Z  INFO 78101 --- [main] s.f.r.repositories.CostumerRepoTest      : Started CostumerRepoTest in 3.505 seconds (process running for 5.576)
+2023-10-17T11:42:13.696Z  INFO 78101 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T11:42:13.696Z  INFO 78101 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-10-17T11:43:15.248Z  INFO 78135 --- [main] s.f.r.repositories.CostumerRepoTest      : Starting CostumerRepoTest using Java 17.0.5 with PID 78135 (started by mamadoubhoyediallo in /Users/mamadoubhoyediallo/Documents/dev-pro/todo)
+2023-10-17T11:43:15.250Z  INFO 78135 --- [main] s.f.r.repositories.CostumerRepoTest      : No active profile set, falling back to 1 default profile: "default"
+2023-10-17T11:43:15.683Z  INFO 78135 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-17T11:43:15.685Z  INFO 78135 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-17T11:43:15.930Z  INFO 78135 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 236 ms. Found 1 JPA repository interfaces.
+2023-10-17T11:43:15.989Z  INFO 78135 --- [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-10-17T11:43:16.147Z  INFO 78135 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:334efe37-9bf0-4bf9-904c-d8ac5a3fd0ea;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-10-17T11:43:16.462Z  INFO 78135 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-17T11:43:16.524Z  INFO 78135 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-10-17T11:43:16.527Z  INFO 78135 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-17T11:43:16.688Z  INFO 78135 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T11:43:16.702Z  INFO 78135 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-17T11:43:16.761Z  INFO 78135 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-10-17T11:43:16.961Z  INFO 78135 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-17T11:43:17.429Z  INFO 78135 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-17T11:43:17.467Z  INFO 78135 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-10-17T11:43:17.470Z  INFO 78135 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T11:43:17.845Z  INFO 78135 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-17T11:43:18.292Z  INFO 78135 --- [main] s.f.r.repositories.CostumerRepoTest      : Started CostumerRepoTest in 3.511 seconds (process running for 5.366)
+2023-10-17T11:43:18.422Z  INFO 78135 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-17T11:43:18.423Z  INFO 78135 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
