@@ -49,4 +49,4 @@ jobs:
       - name: Pull Image from docker hub
         run: docker pull bhoye06/todo_api_cicd:latest
       - name: Run docker container
-        run: docker run -d -p 8080:8080 --name todo_api_cicd-container bhoye06/todo_api_cicd
+        run: docker run -d -p 8080:8080 bhoye06/todo_api_cicd
