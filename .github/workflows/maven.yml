@@ -44,11 +44,9 @@ jobs:
       run: docker-compose -f docker-compose.yml up -d
   deploy:
     needs: build
-    runs-on: ubuntu
+    runs-on: self-hosted
     steps:
       - name: Pull Image from docker hub
-        run: docker pull bhoye06/todo_api_cicd
-      - name: Delete old container
-        run: docker rm -f todo_api_cicd-container
+        run: docker pull bhoye06/todo_api_cicd:latest
       - name: Run docker container
         run: docker run -d -p 8080:8080 --name todo_api_cicd-container bhoye06/todo_api_cicd
