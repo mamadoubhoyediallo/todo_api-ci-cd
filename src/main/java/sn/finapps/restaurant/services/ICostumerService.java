@@ -12,4 +12,5 @@ public interface ICostumerService {
     List<Costumer> findAll();
     Costumer findById(Long id);
     void deleteById(Long id);
+    Costumer findByEmail(String email);
 }

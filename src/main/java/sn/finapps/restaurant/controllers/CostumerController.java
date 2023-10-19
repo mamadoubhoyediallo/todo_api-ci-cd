@@ -36,6 +36,11 @@ public class CostumerController {
         return costumerService.findById(id);
     }
 
+    @GetMapping("findByEmail/{email}")
+    public Costumer findByEmail(@PathVariable String email){
+        return costumerService.findByEmail(email);
+    }
+
     @DeleteMapping("findById/{id}")
     public void deleteById(@PathVariable Long id){
          costumerService.deleteById(id);

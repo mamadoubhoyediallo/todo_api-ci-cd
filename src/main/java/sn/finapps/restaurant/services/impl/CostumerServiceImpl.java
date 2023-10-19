@@ -72,4 +72,9 @@ public class CostumerServiceImpl implements ICostumerService {
     public void deleteById(Long id) {
         costumerRepo.deleteById(id);
     }
+
+    @Override
+    public Costumer findByEmail(String email) {
+        return costumerRepo.findByEmail(email).get();
+    }
 }
