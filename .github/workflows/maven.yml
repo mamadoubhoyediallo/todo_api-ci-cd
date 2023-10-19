@@ -48,5 +48,7 @@ jobs:
     steps:
       - name: Pull Image from docker hub
         run: docker pull bhoye06/todo_api_cicd:latest
+      - name: Delete old container
+        run: docker rm -f todo_api_cicd
       - name: Run docker container
-        run: docker run -d -p 8080:8080 bhoye06/todo_api_cicd
+        run: docker run -d -p 8080:8080 --name todo_api_cicd bhoye06/todo_api_cicd
