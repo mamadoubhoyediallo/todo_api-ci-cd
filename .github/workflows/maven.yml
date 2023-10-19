@@ -47,7 +47,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Pull Image from docker hub
-        run: docker pull bhoye06/todo_api_cicd:latest
+        run: docker pull bhoye06/todo_api_cicd
       - name: Delete old container
         run: docker rm -f todo_api_cicd
       - name: Run docker container
